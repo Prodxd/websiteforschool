@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 32px;
+			font-weight: normal;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		nav {
+			margin-top: 20px;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #f2f2f2;
+		}
+
+		nav li {
+			float: left;
+		}
+
+		nav li a {
+			display: block;
+			color: #333;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		nav li a:hover {
+			background-color: #ddd;
+		}
+
+		main {
+			margin: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			margin-top: 0;
+			line-height: 1.5;
+		}
+
+		.workouts {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -10px;
+		}
+
+		.workout {
+			flex-basis: calc(33.33% - 20px);
+			margin: 0 10px 20px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.workout h3 {
+			margin-top: 0;
+			font-size: 18px;
+		}
+
+		.workout p {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Fitness Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Workouts</a></li>
+				<li><a href="#">Nutrition</a></li>
+				<li><a href="#">Community</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Welcome to Fitness Website</h2>
+		<p>Here you will find everything you need to get fit and stay healthy. Browse our collection of workouts, nutrition tips, and community resources to help you reach your fitness goals.</p>
+		<h2>Featured Workouts</h2>
+		<div class="workouts">
+			<div class="workout">
+				<h3>Cardio Blast</h3>
+				<p>A high-intensity cardio workout that will get your heart pumping and your body sweating.</p>
+                <img src="cardio.png">
+			</div>
+			<div class="workout">
+				<h3>Full-Body Strength</h3>
+				<p>A strength-training workout that targets all major muscle groups for a total-body workout.</p>
+				<img src="majormuscles.png">
+			</div>
+			<div class="workout">
+				<h3>Yoga Flow</h3>
+				<p>A gentle yoga routine that will help you de-stress and improve flexibility.</p>
+				<img src="yogaflow.png">
+			</div>
+		</div>
+	</main>
+</body>
+</html>
